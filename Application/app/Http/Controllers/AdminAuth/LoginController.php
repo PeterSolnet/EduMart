@@ -4,7 +4,7 @@ namespace EduMart\Http\Controllers\AdminAuth;
 
 use EduMart\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\Request;
 
 class LoginController extends Controller
@@ -70,4 +70,28 @@ class LoginController extends Controller
         $request->session()->regenerate();
         return redirect("/admin_login");
     }
+
+//    public function login(Request $request){
+//        //dd($request);
+//        $input = $data = $request->all();
+//        if(count($input) > 0){
+//            $auth = auth()->guard('admin_user');
+//            $credentials = [
+//                'email' =>  $input['email'],
+//                'password' =>  $input['password'],
+//            ];
+//
+//            if ($auth->attempt($credentials))
+//            {
+//                return redirect()->action('LoginController@showLoginForm');
+//            } else
+//            {
+//                echo 'Error';
+//            }
+//        } else {
+//            return view('admin.login');
+//        }
+//    }
+
+
 }

@@ -2,12 +2,17 @@
 
 namespace EduMart;
 
+//use Illuminate\Database\Eloquent\Model;
+//use EduMart\Notifications\UserAdminResetPasswordNotification;
+use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
-use EduMart\Notifications\UserAdminResetPasswordNotification;
+use Illuminate\Auth\Passwords\CanResetPassword;
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 
-
-class AdminUser extends Model
+class AdminUser extends Model implements AuthenticatableContract, CanResetPasswordContract
 {
+    use Authenticatable, CanResetPassword;
     protected $table ="admin_users";
 
 
