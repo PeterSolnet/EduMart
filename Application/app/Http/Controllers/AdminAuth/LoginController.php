@@ -21,26 +21,12 @@ class LoginController extends Controller
     */
 
     use AuthenticatesUsers;
-//    use AuthenticatesUsers {
-//        logout as performLogout;
-//    }
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
     protected $redirectTo = '/admin-home';
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-//    public function logout(Request $request)
-//    {
-//        $this->performLogout($request);
-//        return redirect()->route('/login');
-//    }
 
 
     public function __construct()
@@ -63,6 +49,10 @@ class LoginController extends Controller
         return Auth::guard('admin_user');
     }
 
+    /*
+     * Custom logout made by me
+     */
+
     public function logout(Request $request)
     {
         $this->guard()->logout();
@@ -70,28 +60,4 @@ class LoginController extends Controller
         $request->session()->regenerate();
         return redirect("/admin_login");
     }
-
-//    public function login(Request $request){
-//        //dd($request);
-//        $input = $data = $request->all();
-//        if(count($input) > 0){
-//            $auth = auth()->guard('admin_user');
-//            $credentials = [
-//                'email' =>  $input['email'],
-//                'password' =>  $input['password'],
-//            ];
-//
-//            if ($auth->attempt($credentials))
-//            {
-//                return redirect()->action('LoginController@showLoginForm');
-//            } else
-//            {
-//                echo 'Error';
-//            }
-//        } else {
-//            return view('admin.login');
-//        }
-//    }
-
-
 }
