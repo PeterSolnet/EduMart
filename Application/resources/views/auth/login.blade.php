@@ -192,6 +192,7 @@
                                     </span>
                             @endif
                         </div>
+                        <input id="school_id" name="school_id" type="hidden" value="1" />
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                              <label for="password" class="block clearfix">
 								    <span class="block input-icon input-icon-right">
@@ -218,6 +219,8 @@
                                     </span>
                             @endif
                         </div>
+
+
                         <label class="block">
                             <input type="checkbox" class="ace" />
 														<span class="lbl">

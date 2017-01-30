@@ -23,87 +23,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.9358491" vertical-offset="354" max-vertical-offset="952">
-              <folding>
-                <element signature="e#44#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="514" selection-end="620" vertical-scroll-proportion="-13.192307" vertical-offset="133" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="346" selection-end="369" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/AdminAuth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="18" selection-start="805" selection-end="805" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1173">
-              <folding>
-                <element signature="e#54#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/resources/views/admin-home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUser.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/app/AdminUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="73" selection-start="331" selection-end="331" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="25" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-14.153846" vertical-offset="261" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminHomeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/AdminHomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="198" selection-end="198" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/resources/views/admin-auth/login.blade.php">
+        <entry file="file://$PROJECT_DIR$/Application/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="27" selection-start="12562" selection-end="12572" vertical-scroll-proportion="-12.769231" vertical-offset="4071" max-vertical-offset="4590">
+            <state line="221" column="0" selection-start="11086" selection-end="11086" vertical-scroll-proportion="-15.307693" vertical-offset="3359" max-vertical-offset="4539">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="11" selection-start="287" selection-end="626" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_29_214209_roles.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214209_roles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="8" selection-start="615" selection-end="637" vertical-scroll-proportion="-18.26923" vertical-offset="1" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_29_214222_permissions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214222_permissions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="8" selection-start="627" selection-end="627" vertical-scroll-proportion="-18.26923" vertical-offset="1" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_29_214255_role_permissions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214255_role_permissions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="33" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5658153" vertical-offset="1" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_29_214149_user_roles.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214149_user_roles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="8" selection-start="625" selection-end="652" vertical-scroll-proportion="-16.307692" vertical-offset="52" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_21_221430_create_admin_users_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_21_221430_create_admin_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="6" selection-start="648" selection-end="648" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_01_17_220741_CreateSchoolTable.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_17_220741_CreateSchoolTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="8" selection-start="991" selection-end="1014" vertical-scroll-proportion="-16.307692" vertical-offset="154" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistersUsers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="6" selection-start="971" selection-end="971" vertical-scroll-proportion="-19.076923" vertical-offset="218" max-vertical-offset="1156">
+              <folding>
+                <element signature="e#46#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/Auth/RegisterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="5" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-13.846154" vertical-offset="711" max-vertical-offset="1326">
+              <folding>
+                <element signature="e#49#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,16 +127,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Application/app/Modules/Admin/Views/index.blade.php" />
-        <option value="$PROJECT_DIR$/Application/app/Modules/Admin/routes.php" />
-        <option value="$PROJECT_DIR$/Application/app/Modules/ModulesServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Application/bootstrap/cache/services.php" />
-        <option value="$PROJECT_DIR$/Application/app/Modules.php" />
-        <option value="$PROJECT_DIR$/Application/app/Providers/ModulesServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Application/app/modules/ModulesServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Application/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/Application/composer.json" />
-        <option value="$PROJECT_DIR$/Application/resources/views/layouts/login_template.blade.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/Application/app/modules/Admin/routes.php" />
         <option value="$PROJECT_DIR$/Application/app/modules/Admin/Views/index.blade.php" />
@@ -157,7 +157,6 @@
         <option value="$PROJECT_DIR$/Application/config/app.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/Application/resources/views/errors/403.blade.php" />
-        <option value="$PROJECT_DIR$/Application/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/Application/routes/web.php" />
         <option value="$PROJECT_DIR$/Application/resources/views/admin-auth/login.blade.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/Controllers/AdminAuth/RegisterController.php" />
@@ -167,8 +166,18 @@
         <option value="$PROJECT_DIR$/Application/app/AdminUser.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/Controllers/AdminAuth/LoginController.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/MultiTenant.php" />
-        <option value="$PROJECT_DIR$/Application/app/User.php" />
         <option value="$PROJECT_DIR$/Application/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/Application/resources/views/layouts/login_template.blade.php" />
+        <option value="$PROJECT_DIR$/Application/app/User.php" />
+        <option value="$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php" />
+        <option value="$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
+        <option value="$PROJECT_DIR$/Application/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/Application/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/Application/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/Application/database/migrations/2017_01_29_214149_user_roles.php" />
+        <option value="$PROJECT_DIR$/Application/database/migrations/2017_01_29_214209_roles.php" />
+        <option value="$PROJECT_DIR$/Application/database/migrations/2017_01_29_214222_permissions.php" />
+        <option value="$PROJECT_DIR$/Application/database/migrations/2017_01_29_214255_role_permissions.php" />
       </list>
     </option>
   </component>
@@ -250,7 +259,145 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduMart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,28 +416,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EduMart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EduMart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +494,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,62 +536,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="253" selection-end="253" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/database/seeds/AdminUsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="153" selection-end="153" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="51" selection-start="11600" selection-end="11600" vertical-scroll-proportion="-3.2156863" vertical-offset="5378" max-vertical-offset="17442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="38" selection-start="3751" selection-end="3751" vertical-scroll-proportion="-7.3076925" vertical-offset="2088" max-vertical-offset="2771" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="75" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.9358491" vertical-offset="1493" max-vertical-offset="2091" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Contracts/Auth/CanResetPassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.38490567" vertical-offset="0" max-vertical-offset="530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <folding>
-            <element signature="e#46#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="-9.269231" vertical-offset="371" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/resources/views/auth/passwords/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3272" selection-end="3272" vertical-scroll-proportion="0.934236" vertical-offset="860" max-vertical-offset="2975" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/resources/views/auth/passwords/email.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.5918762" vertical-offset="0" max-vertical-offset="901" />
@@ -533,11 +602,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/resources/views/layouts/login_template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="21" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-10.076923" vertical-offset="639" max-vertical-offset="1717" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="37" selection-start="3378" selection-end="3378" vertical-scroll-proportion="-0.65384614" vertical-offset="1615" max-vertical-offset="4148" />
@@ -546,11 +610,6 @@
     <entry file="file://$PROJECT_DIR$/Application/resources/views/errors/403.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
@@ -575,19 +634,11 @@
         <state line="8" column="36" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2245283" vertical-offset="17" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="415" selection-end="415" vertical-scroll-proportion="0.4811321" vertical-offset="0" max-vertical-offset="1309" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="29" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-9.269231" vertical-offset="558" max-vertical-offset="1156" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/css/ace.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="0" selection-end="396932" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543" />
+        <state line="0" column="46" selection-start="0" selection-end="396932" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/js/ace.min.js">
@@ -646,7 +697,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.93609023" vertical-offset="743" max-vertical-offset="1343">
           <folding>
-            <element signature="e#54#94#0" expanded="true" />
+            <element signature="e#54#94#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/resources/views/admin-auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="27" selection-start="12562" selection-end="12572" vertical-scroll-proportion="-12.769231" vertical-offset="4071" max-vertical-offset="4590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/AdminAuth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="18" selection-start="805" selection-end="805" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1173">
@@ -681,17 +725,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="514" selection-end="620" vertical-scroll-proportion="-13.192307" vertical-offset="133" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/resources/views/admin-home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <marker date="1485116993264" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1485116993264" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1485116993264" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1485116993264" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,10 +753,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.9358491" vertical-offset="354" max-vertical-offset="952">
+        <state line="33" column="35" selection-start="735" selection-end="735" vertical-scroll-proportion="-7.9615383" vertical-offset="354" max-vertical-offset="952">
           <folding>
             <element signature="e#44#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/resources/views/admin-auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="980" selection-end="980" vertical-scroll-proportion="-7.269231" vertical-offset="270" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/resources/views/layouts/login_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="38" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-8.884615" vertical-offset="1061" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.51320755" vertical-offset="0" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="77" selection-end="77" vertical-scroll-proportion="-8.526415" vertical-offset="4604" max-vertical-offset="5134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="346" selection-end="346" vertical-scroll-proportion="-9.269231" vertical-offset="31" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="135" selection-end="135" vertical-scroll-proportion="0.2792453" vertical-offset="22" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="6" selection-start="971" selection-end="971" vertical-scroll-proportion="-19.076923" vertical-offset="218" max-vertical-offset="1156">
+          <folding>
+            <element signature="e#46#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="5" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-13.846154" vertical-offset="711" max-vertical-offset="1326">
+          <folding>
+            <element signature="e#49#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="0" selection-start="11086" selection-end="11086" vertical-scroll-proportion="-15.307693" vertical-offset="3359" max-vertical-offset="4539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="287" selection-end="626" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_21_221430_create_admin_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="648" selection-end="648" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_17_220741_CreateSchoolTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="991" selection-end="1014" vertical-scroll-proportion="-16.307692" vertical-offset="154" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214149_user_roles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="625" selection-end="652" vertical-scroll-proportion="-16.307692" vertical-offset="52" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214209_roles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="615" selection-end="637" vertical-scroll-proportion="-18.26923" vertical-offset="1" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214222_permissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="627" selection-end="627" vertical-scroll-proportion="-18.26923" vertical-offset="1" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214255_role_permissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5658153" vertical-offset="1" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>

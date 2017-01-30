@@ -70,25 +70,48 @@
 <!--[if IE]>
 <script src="{{asset('theme/js/jquery-1.11.3.min.js')}}"></script>
 <![endif]-->
-<script type="text/javascript">
-    if('ontouchstart' in document.documentElement) document.write("<script src='{{asset("theme/js/jquery.mobile.custom.min.js")}}'>"+"<"+"/script>");
-</script>
 
 <!-- inline scripts related to this page -->
 <script type="text/javascript">
     jQuery(function($) {
+        $('#blah').css('display','none');
         $(document).on('click', '.toolbar a[data-target]', function(e) {
             e.preventDefault();
             var target = $(this).data('target');
             $('.widget-box.visible').removeClass('visible');//hide others
             $(target).addClass('visible');//show target
         });
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah').attr('src', e.target.result);
+                    $('#blah').css('display','block');
+                    var filename = $('input[type=file]').val();//.replace(/.*(\/|\\)/, '');
+                    $('.ace-file-name').attr('data-title', filename); // sets
+
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#id-input-file-2").change(function(){
+            readURL(this);
+        });
+
+        $( "button:reset").click(function(){
+            $( "input:file").val("");
+            $('.ace-file-name').attr('data-title', '');
+            $('#blah').attr('src', '');
+            $('#blah').css('display','none');
+        });
     });
 
-
-
-
     //you don't need this, just used for changing background
+
 
 </script>
 </body>

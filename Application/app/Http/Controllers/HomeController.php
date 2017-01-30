@@ -28,14 +28,14 @@ class HomeController extends Controller
     public function index()
     {
 
-//        // get list of all profiles in the tenant
-//        $school_name = \App\school::where('id', (int)Auth::user()->school_id)
-//            ->orderBy('name', 'desc')
-//            ->get(['name','logo']);
-//        //$profile = \EduMart\User::School((int)Auth::user()->school_id)->get();
-//        //Append Access control to profile object
-//        //$profile['Access_level']= $result;
-//        return response()->json($school_name);
+        // get list of all profiles in the tenant
+        $school_name = \App\school::where('id', (int)Auth::user()->school_id)
+            ->orderBy('name', 'desc')
+            ->get(['name','logo']);
+        //$profile = \EduMart\User::School((int)Auth::user()->school_id)->get();
+        //Append Access control to profile object
+        //$profile['Access_level']= $result;
+        return response()->json($school_name);
 
 
         if (Auth::check())
