@@ -1,3 +1,3 @@
 # EduMart
-mossadmin
-m0ss@dmin
+#mossadmin
+#m0ss@dmin
