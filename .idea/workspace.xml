@@ -62,7 +62,7 @@
       <file leaf-file-name="2017_01_29_214255_role_permissions.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214255_role_permissions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5658153" vertical-offset="1" max-vertical-offset="629">
+            <state line="24" column="30" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7328094" vertical-offset="1" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -494,7 +494,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -871,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/database/migrations/2017_01_29_214255_role_permissions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5658153" vertical-offset="1" max-vertical-offset="629">
+        <state line="24" column="30" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7328094" vertical-offset="1" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
