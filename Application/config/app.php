@@ -178,12 +178,10 @@ return [
        // EduMart\Providers\BroadcastServiceProvider::class,
         EduMart\Providers\EventServiceProvider::class,
         EduMart\Providers\RouteServiceProvider::class,
-
         /*
        * stuff I added
        */
-        Modules\ModulesServiceProvider::class,
-
+        App\Modules\ModulesServiceProvider::class,
 
     ],
 

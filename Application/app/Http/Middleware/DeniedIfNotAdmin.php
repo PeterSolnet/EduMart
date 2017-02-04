@@ -15,11 +15,12 @@ class DeniedIfNotAdmin
      */
     public function handle($request, Closure $next,$guard = 'admin_user')
     {
-        //dd(\Auth::guard($guard)->check());
+            //dd(\Auth::guard($guard)->check());
 
-        if(! \Auth::guard($guard)->check())
+        if(!\Auth::guard($guard)->check())
         {
-            abort(403);
+           // dd( \Auth::guard('admin_user')->user()->name);
+            //abort(403);
             //return response("Access Denied",403);
         }
         return $next($request);

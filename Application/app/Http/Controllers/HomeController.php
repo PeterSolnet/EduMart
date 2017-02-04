@@ -35,7 +35,7 @@ class HomeController extends Controller
         //$profile = \EduMart\User::School((int)Auth::user()->school_id)->get();
         //Append Access control to profile object
         //$profile['Access_level']= $result;
-        return response()->json($school_name);
+        //return response()->json($school_name);
 
 
         if (Auth::check())

@@ -8,7 +8,12 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    {{Auth::user()->school_id}}
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <a href="#">{{Auth::user()->school_id}}</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

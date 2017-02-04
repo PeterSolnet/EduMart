@@ -1,15 +1,23 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Peter Oladipo
+ * Date: 2/3/17
+ * Time: 5:53 PM
+ */
 
-namespace EduMart\Http\Controllers;
+namespace App\Modules\School\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 use EduMart\Http\Requests;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use App\school;
 
-class AdminHomeController extends Controller
+
+class SchoolController extends Controller
 {
-
     public function __construct()
     {
         $this->middleware('admin.user');
@@ -21,7 +29,6 @@ class AdminHomeController extends Controller
         {
             abort(401);
         }
-        return view('admin-home');
+        return view('School::index');
     }
-
 }

@@ -17,12 +17,13 @@
     },
     "autoload": {
         "classmap": [
-            "database"
+            "database",
+            "app/Modules"
         ],
         "psr-4": {
             "EduMart\\": "app/",
             "App\\": "app/",
-            "Modules\\": "app/modules"
+            "Modules\\":"Modules/"
         }
     },
     "autoload-dev": {

@@ -5,6 +5,7 @@ namespace EduMart\Http\Controllers\AdminAuth;
 use EduMart\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 use Symfony\Component\HttpFoundation\Request;
 
 class LoginController extends Controller
@@ -44,10 +45,12 @@ class LoginController extends Controller
         return view('admin-auth.login');
     }
 
-    public function guard()
+
+    protected function guard()
     {
         return Auth::guard('admin_user');
     }
+
 
     /*
      * Custom logout made by me

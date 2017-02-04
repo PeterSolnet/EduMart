@@ -46,6 +46,10 @@ Route::get('/', function () {
     {
     return view('/home');
     }
+    elseif(Auth::guard('admin_user')->user())
+    {
+        return view('/admin-home');
+    }
     else
     {
         return view('auth.login');

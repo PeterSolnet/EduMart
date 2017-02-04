@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
-    <title>{{ config('app.name', 'Laravel') }} :: @yield('title')</title>
+    <title>{{ config('app.name', 'Laravel') }} :: @yield('PageTitle')</title>
 
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -57,12 +57,23 @@
 </button>
 
 <div class="navbar-header pull-left">
-    <a href="{{ url('/') }}" class="navbar-brand">
-        <small>
-            <i class="fa fa-leaf"></i>
-            {{ config('app.name', 'Laravel') }}
-        </small>
-    </a>
+
+    @if(Auth::guard('admin_user')->user())
+        <a href="{{ url('/admin-home') }}" class="navbar-brand">
+            <small>
+                <i class="fa fa-leaf"></i>
+                {{ config('app.name', 'Laravel') }}
+            </small>
+        </a>
+    @elseif(Auth::user())
+        <a href="{{ url('/') }}" class="navbar-brand">
+            <small>
+                <i class="fa fa-leaf"></i>
+                {{ config('app.name', 'Laravel') }}
+            </small>
+        </a>
+    @endif
+
 </div>
 
 <div class="navbar-buttons navbar-header pull-right" role="navigation">
@@ -325,7 +336,7 @@
 <li class="light-blue dropdown-modal">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
                                 @if(Auth::guard('admin_user')->user())
-									{!!Auth::guard('admin_user')->user()->name!!}
+									{!!Auth::guard('admin_user')->user()->name!!} - Admin
                                 @elseif(Auth::user())
                                     {!!Auth::user()->name!!}
                                 @endif
@@ -431,7 +442,7 @@
 
 <ul class="nav nav-list">
 <li class="">
-    <a href="index.html">
+    <a href="{!! URL('/admin-home')!!}">
         <i class="menu-icon fa fa-tachometer"></i>
         <span class="menu-text"> Dashboard </span>
     </a>
@@ -443,7 +454,7 @@
     <a href="#" class="dropdown-toggle">
         <i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								UI &amp; Elements
+								School Management
 							</span>
 
         <b class="arrow fa fa-angle-down"></b>
@@ -452,77 +463,11 @@
     <b class="arrow"></b>
 
     <ul class="submenu">
-        <li class="">
-            <a href="#" class="dropdown-toggle">
-                <i class="menu-icon fa fa-caret-right"></i>
-
-                Layouts
-                <b class="arrow fa fa-angle-down"></b>
-            </a>
-
-            <b class="arrow"></b>
-
-            <ul class="submenu">
-                <li class="">
-                    <a href="top-menu.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Top Menu
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="">
-                    <a href="two-menu-1.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Two Menus 1
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="">
-                    <a href="two-menu-2.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Two Menus 2
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="">
-                    <a href="mobile-menu-1.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Default Mobile Menu
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="">
-                    <a href="mobile-menu-2.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Mobile Menu 2
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-
-                <li class="">
-                    <a href="mobile-menu-3.html">
-                        <i class="menu-icon fa fa-caret-right"></i>
-                        Mobile Menu 3
-                    </a>
-
-                    <b class="arrow"></b>
-                </li>
-            </ul>
-        </li>
 
         <li class="">
-            <a href="typography.html">
+            <a href="{!! URL('admin/schools') !!}">
                 <i class="menu-icon fa fa-caret-right"></i>
-                Typography
+                View Schools List
             </a>
 
             <b class="arrow"></b>
@@ -917,18 +862,7 @@
 <div class="main-content">
     <div class="main-content-inner">
         <div class="breadcrumbs ace-save-state" id="breadcrumbs">
-            <ul class="breadcrumb">
-                <li>
-                    <i class="ace-icon fa fa-home home-icon"></i>
-                    <a href="#">Home</a>
-                </li>
-
-                <li>
-                    <a href="#">More Pages</a>
-                </li>
-                <li class="active">Invoice</li>
-            </ul><!-- /.breadcrumb -->
-
+            @include('shared.breadcrumbs')
             <div class="nav-search" id="nav-search">
                 <form class="form-search">
 								<span class="input-icon">
@@ -949,8 +883,8 @@
                         <div class="col-sm-12">
                             <div class="widget-box transparent">
                                 <div class="widget-header widget-header-large">
-                                    <h3 class="widget-title grey lighter">
-                                        <i class=" @yield('icon')"></i>
+                                    <h3 class="widget-title blue">
+                                        <i class=" @yield('icon') grey dark"></i>
                                             @yield('PageTitle')
                                     </h3>
 
@@ -961,12 +895,6 @@
                                         @yield('content')
 
                                         <div class="space"></div>
-
-
-
-
-
-
 
                                     </div>
                                 </div>
